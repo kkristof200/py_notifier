@@ -6,13 +6,13 @@ if os.path.exists(readme_path):
     with open(readme_path, 'r') as f:
         long_description = f.read()
 else:
-    long_description = 'notifier'
+    long_description = 'knotifier'
 
 setuptools.setup(
-    name='notifier',
-    version='0.0.1',
+    name='knotifier',
+    version='0.0.2',
     author='Kristóf-Attila Kovács',
-    description='notifier',
+    description='knotifier',
     long_description=long_description,
     long_description_content_type='text/markdown',
     url='',
